@@ -1,11 +1,11 @@
-About mrc
-=========
+About mrc-feedstock
+===================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mrc-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/tlambert03/mrc
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mrc-feedstock/blob/main/LICENSE.txt)
 
 Summary: Read and write .mrc and .dv (deltavision) image file format
 
