@@ -1,5 +1,5 @@
 {% set name = "mrc" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mrc-{{ version }}.tar.gz
-  sha256: 69318075eb9cd87f1d7c1f1c9a62bd5179639327430dac68f206467280264c51
+  sha256: 8ebe3ebee2739ad285e8199e86ab5b987e78a8d1e5a899afdd664d309bc42e97
 
 build:
   noarch: python
@@ -18,7 +18,8 @@ requirements:
   host:
     - pip
     - python >=3.7
-    - setuptools-scm
+    - hatchling
+    - hatch-vcs
   run:
     - numpy
     - python >=3.7
